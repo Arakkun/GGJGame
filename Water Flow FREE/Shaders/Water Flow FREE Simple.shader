@@ -2,8 +2,8 @@ Shader "Water Flow FREE/Water Flow FREE Simple" {
 	Properties {
 		_MainTex ("Base (RGB)", 2D) = "white" {}
 		_Color ("Diffuse", Color) = (1,1,1,0.75)
-		_MoveSpeedU ("U Move Speed", Range(-6,6)) = 0.5
-		_MoveSpeedV ("V Move Speed", Range(-6,6)) = 0.5
+		_MoveSpeedU ("U Move Speed", Range(-100,200)) = 0.5
+		_MoveSpeedV ("V Move Speed", Range(-100,200)) = 0.5
 	}
 	SubShader {
 		Tags {
