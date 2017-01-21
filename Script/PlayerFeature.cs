@@ -13,4 +13,16 @@ public class PlayerFeature : MonoBehaviour {
 	void Update () {
 		
 	}
+
+	void OnTriggerEnter2D(Collider2D other){
+		switch (other.tag) {
+		case "Obstacle":
+			Debug.Log ("ouch!");
+			break;
+		case "Wave":
+			break;
+		default:
+			break;
+		}
+	}
 }

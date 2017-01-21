@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerScript : MonoBehaviour {
+public class PlayerMovement : MonoBehaviour {
 	public int currentPos=1; // posizione corrente. PUBBLICA PER DEBUG
 	public int startingPos=1; // posizione iniziale
 	public float easing; //durata movimento del personaggio in s
